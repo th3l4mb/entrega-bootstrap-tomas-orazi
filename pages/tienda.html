@@ -1,24 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/estilo.css">
 </head>
+
 <body>
     <header>
         <h1 class="titulo text-center bg-dark bg-gradient mb-0">Titulo</h1>
         <nav class="navbar navbar-expand-sm navbar-dark bg-dark bg-gradient">
             <div class="container-fluid">
-                <a class="navbar-brand" href="javascript:void(0)">Logo</a>
+                <a class="navbar-brand" href="../index.html">Logo</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="mynavbar">
                     <ul class="navbar-nav me-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href>Pagina bootstrap</a>
+                            <a class="nav-link" href="./pages/tienda.html">Link</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="javascript:void(0)">Link</a>
@@ -36,24 +40,59 @@
         </nav>
     </header>
     <main>
+        <h1 class="text-center">LA TIENDA</h1>
+        <div class="container">
+            <div class="row rows">
+                <div class="col-md-3">
+                    <img src="https://placedog.net/500" alt="">
+                    <p class="text-center">perrito hermoso</p>
+                    <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt aliquam molestiae eligendi soluta nihil quos odio ipsum maxime. Repudiandae quia aliquam velit tempora amet nisi fugit earum, sequi iure temporibus nam saepe distinctio est, nostrum, molestias praesentium possimus officiis explicabo similique qui dolorum libero. Excepturi minus quae rerum unde hic.</p>
+                </div>
+                <div class="col-md-3">
+                    <img src="https://placedog.net/500" alt="">
+                    <p class="text-center">perrito fachero</p>
+                    <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae nihil nulla impedit. Eveniet praesentium placeat eius non temporibus doloremque illo vitae cupiditate saepe explicabo? Voluptatibus delectus quia non adipisci accusamus quis ea nobis in sit atque, temporibus aspernatur, accusantium ullam sunt, nostrum fugit! Vitae ipsa tempora ratione ab delectus eveniet quibusdam, ut, veritatis tempore itaque aliquam, deleniti nobis quidem. Eos ipsum assumenda atque neque amet provident possimus repellendus expedita, numquam quo voluptatem, placeat enim autem!</p>
+                </div>
+                <div class="col-md-3">
+                    <img src="https://placedog.net/500" alt="">
+                    <p class="text-center">perrito feliz</p>
+                    <p class="text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus, quas atque dicta non architecto beatae modi veniam officia vero esse! Aliquid fuga quidem exercitationem, quae tempora ex illum ea tempore veritatis quaerat repellendus labore molestiae reprehenderit! Sed minima, saepe non eos aspernatur laboriosam quo sunt repudiandae? Animi dolorum quis saepe ut nihil, nisi laboriosam temporibus iure, vero, alias deserunt ratione.</p>
+                </div>
+                <div class="col-md-3">
+                    <img src="https://placedog.net/500" alt="">
+                    <p class="text-center">perrito jugueton</p>
+                    <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque dolorum quam dignissimos aliquid, voluptatum velit voluptatibus, suscipit vel, libero temporibus dolore? Voluptatibus accusamus ratione sed ducimus laboriosam ipsum distinctio ullam iure quibusdam facilis illo a nemo sit soluta animi odit, corporis nesciunt minima laudantium possimus ad. Inventore molestias rerum unde? Cupiditate sunt consequatur pariatur odit totam eius fugiat cumque recusandae maiores, delectus natus? Porro ratione possimus voluptatum molestias id, consequatur quos, numquam nesciunt distinctio voluptatem alias animi atque amet culpa.
+                    </p>
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
         <div class="container">
             <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-              <div class="col-md-4 d-flex align-items-center">
-                <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
-                  <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
-                </a>
-                <span class="mb-3 mb-md-0 text-muted">© 2022 Company, Inc</span>
-              </div>
-          
-              <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-                <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
-                <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
-                <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
-              </ul>
+                <div class="col-md-4 d-flex align-items-center">
+                    <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                        <svg class="bi" width="30" height="24">
+                            <use xlink:href="#bootstrap"></use>
+                        </svg>
+                    </a>
+                    <span class="mb-3 mb-md-0 text-muted">© 2022 Company, Inc</span>
+                </div>
+
+                <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                    <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24">
+                                <use xlink:href="#twitter"></use>
+                            </svg></a></li>
+                    <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24">
+                                <use xlink:href="#instagram"></use>
+                            </svg></a></li>
+                    <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24">
+                                <use xlink:href="#facebook"></use>
+                            </svg></a></li>
+                </ul>
             </footer>
-          </div>
+        </div>
     </footer>
 </body>
+
 </html>

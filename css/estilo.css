@@ -12,14 +12,7 @@ background-color: rgb(88, 10, 10);
 .stimpy{
     color: antiquewhite;
 }
-.footer{
-    display: flex;
-    background-color: aqua;
-    border: 5px black solid;
-    justify-content: space-between;
-    align-content: flex-start;
-    align-items: center;
-}
+
 .btn:hover {
     color: brown;
     background-color: blueviolet;
@@ -28,4 +21,8 @@ background-color: rgb(88, 10, 10);
 .row {
     justify-content: space-evenly;
     background-color: black;
+}
+.rows img {
+    width: 300px;
+    height: 300px;
 }
